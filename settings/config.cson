@@ -1,0 +1,30 @@
+"*":
+  "atom-clock":
+    dateFormat: "HH:mm"
+  "atom-python-run": {}
+  "config-import-export":
+    defaultPath:
+      darwin: "/Users/lucas/AtomBackups"
+      freebsd: ""
+      linux: ""
+      sunos: ""
+      win32: ""
+  core:
+    telemetryConsent: "no"
+  editor:
+    fontSize: 16
+  "exception-reporting":
+    userId: "06d516f7-598b-4c4e-8146-55f53a67ddec"
+  "linter-python":
+    linkColor: "#bf0b17"
+    withPep8: true
+  "linter-ui-default":
+    panelHeight: 232
+  "markdown-preview":
+    useGitHubStyle: true
+  "platformio-ide-terminal":
+    core: {}
+  "tree-view":
+    hideVcsIgnoredFiles: true
+  welcome:
+    showOnStartup: false
