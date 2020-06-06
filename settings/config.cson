@@ -20,8 +20,7 @@
     withPep8: true
   "linter-ui-default":
     panelHeight: 232
-  "markdown-preview":
-    useGitHubStyle: true
+  "markdown-preview": {}
   "platformio-ide-terminal":
     core: {}
   "tree-view":
