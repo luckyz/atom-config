@@ -23,6 +23,8 @@
   "markdown-preview": {}
   "platformio-ide-terminal":
     core: {}
+  "pp-markdown":
+    cssURL: "markdown1"
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
