@@ -28,6 +28,5 @@ with open(FILE_INPUT, "r") as json_file:
     for index in range(len(source["packages"])):
         package_name = source["packages"][index]
         packages.append(package_name)
-json_file.close()
 
 os.system("apm install {}".format(" ".join(packages)))
