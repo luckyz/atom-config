@@ -2,19 +2,28 @@
   "atom-clock":
     dateFormat: "HH:mm"
   "atom-python-run": {}
+  "autocomplete-python":
+    extraPaths: "/User/lucas/.virtualenvs/$PROJECT_NAME/python3/site-packages"
+    pythonPaths: "/usr/local/bin/python3"
   "config-import-export":
     defaultPath:
-      darwin: "/Users/lucas/AtomBackups"
-      freebsd: ""
-      linux: ""
-      sunos: ""
-      win32: ""
+      darwin: "/Users/lucas/Documents/development/atom-config/"
+      freebsd: "/Users/lucas/Documents/development/atom-config/"
+      linux: "/Users/lucas/Documents/development/atom-config/"
   core:
+    closeDeletedFileTabs: true
+    projectHome: "/Users/lucas/Documents/development/"
     telemetryConsent: "no"
+    titleBar: "hidden"
+    uriHandlerRegistration: "always"
   editor:
+    showIndentGuide: true
+    tabLength: 4
     fontSize: 16
   "exception-reporting":
     userId: "06d516f7-598b-4c4e-8146-55f53a67ddec"
+  kite:
+    showWelcomeNotificationOnStartup: false
   "linter-python":
     linkColor: "#bf0b17"
     withPep8: true
@@ -25,6 +34,9 @@
     core: {}
   "pp-markdown":
     cssURL: "markdown1"
+  "remote-atom":
+    keep_alive: true
+    launch_at_startup: true
   "tree-view":
     hideVcsIgnoredFiles: true
   welcome:
