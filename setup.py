@@ -4,6 +4,7 @@ import os
 import tkinter as tk
 from tkinter import filedialog
 import platform
+import shutil
 
 platforms = {
     "Linux": "sudo apt-get install python3-tk",
@@ -30,3 +31,7 @@ with open(FILE_INPUT, "r") as json_file:
         packages.append(package_name)
 
 os.system("apm install {}".format(" ".join(packages)))
+
+for file in os.listdir("settings/"):
+    shutil.copy(os.path.join("settings", file),
+                os.path.join(os.getenv("HOME"), ".atom"))
